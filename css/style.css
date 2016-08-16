@@ -1,0 +1,272 @@
+/* ===================================================================== 
+                                CUSTOM CSS
+===================================================================== */
+
+body {
+    color: #282828;
+    font-family: 'Exo 2', sans-serif;
+    line-height: 1.6;
+}
+
+.main-banner {
+    /* background-color: burlywood; */
+}
+
+.section1-container {
+    /* background-color: aliceblue; */
+}
+
+.section2-container {
+    /* background-color: antiquewhite; */
+}
+
+.section3-container {
+    background-color: white;
+}
+
+.section4-container {
+    /* background-color: azure; */
+}
+
+.main-banner h1 {
+    font-size: 40pt;
+    letter-spacing: 1px;
+    margin-top: 90px;
+    font-weight: 100 !important;
+}
+
+.section5-container {
+    background-color: #fff;
+    padding-top: 70px;
+    padding-bottom: 0;
+}
+
+.section-container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section1-container .row, .section2-container .row {
+    margin: 50px 0;
+}
+
+.par-margin {
+    margin-top: 30px;
+}
+
+.section2-container img {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.section2-container p {
+    margin-bottom: 3em;
+}
+
+.section4-container p {
+    color: #f5f5f5;
+    font-style: italic;
+}
+
+.section4-container h3 {
+    color: #f5f5f5;
+}
+
+.section4-container .first-row {
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+
+.section4-container .second-row img {
+    margin-top: 5em;
+    margin-bottom: 1em;
+    opacity: 0.2;
+}
+
+.section5-container p {
+    padding-bottom: 4em;
+}
+
+.team-title {
+    color: #ff6d6d;
+}
+
+#main-bannerBG {
+   background: url("../images/main-banner.jpg") no-repeat center top;
+    margin-top: -50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 717px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#section1-containerBG {
+    background: url("../images/side-img.jpg") no-repeat;
+    background-size: cover;
+}
+
+#section2-containerBG {
+    background: url("../images/bg-01.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+#section4-containerBG {
+    background: url("../images/bg-02.png") no-repeat center top;
+    background-size: cover;
+}
+
+
+
+/* =====================================================================
+                                TITLES
+===================================================================== */
+h1, h2, h3, h4, h5, h6 {
+    color: #323868;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h2 {
+    font-size: 30pt !important;
+    margin-bottom: 10px;
+    margin-bottom: 0;
+    padding-bottom: 1em;
+}
+
+h4, .pink-dot {
+    color: #ff6d6d !important;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+
+/* =====================================================================
+                                NAVIGATION
+===================================================================== */
+
+.navbar {
+    background: rgba(255,255,255,0.5);
+    border-color: transparent;
+}
+
+.navbar-brand {
+    padding: 0px !important;
+}
+
+.navbar-brand > img {
+    height: 100%;
+    padding: 0;
+    width: auto;
+}
+
+.example2 .navbar-brand > li > a {
+    color: #777;
+    font-weight: 00;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background: transparent !important;
+    font-weight: 600;
+}
+
+
+
+
+/* =====================================================================
+                            ADDED GRID CSS
+===================================================================== */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+/* END OF ADDED GRID CSS */
+
+
+.team-imgbox {
+    width: 150px;
+    height: 150px;
+}
+
+/* =====================================================================
+                                Footer
+===================================================================== */
+
+footer {
+    background-color: #323868;
+    padding: 3% 0;
+}
+
+footer>div>div>div>ul {
+    padding: 0;
+    list-style-type: none;
+    line-height: 1.5em;
+    color: #f5f5f5;
+}
+
+.footer-h3 {
+    color: #f5f5f5;
+    vertical-align: middle !important;
+}
+
+/* =====================================================================
+                                Icon Hover
+===================================================================== */
+
+/* Float */
+.hvr-float {
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
