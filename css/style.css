@@ -8,24 +8,8 @@ body {
     line-height: 1.6;
 }
 
-.main-banner {
-    /* background-color: burlywood; */
-}
-
-.section1-container {
-    /* background-color: aliceblue; */
-}
-
-.section2-container {
-    /* background-color: antiquewhite; */
-}
-
 .section3-container {
     background-color: white;
-}
-
-.section4-container {
-    /* background-color: azure; */
 }
 
 .main-banner h1 {
